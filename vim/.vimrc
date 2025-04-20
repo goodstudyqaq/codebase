@@ -1,3 +1,4 @@
+set clipboard=unnamedplus
 set number
 set tabstop=4
 set shiftwidth=4
@@ -14,7 +15,3 @@ function! s:surround()
 endfunction
 nmap cx :call <SID>surround()<CR>
 
-
-
-set nocompatible
-filetype plugin on
